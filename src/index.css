@@ -1,0 +1,243 @@
+
+/*body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}*/
+body{
+    background-color:gainsboro;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: ghostwhite;
+    font-size:10px;
+}
+
+.price {
+    color: forestgreen;
+    font-size: 22px;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: blanchedalmond;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+a {
+    color: grey;
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+    .card button:hover {
+        opacity: 0.7;
+    }
+.stock {
+    font-size: 18px;
+}
+.footer {
+    font-family: Arial;
+    text-align: center;
+    font: bold;
+    color: whitesmoke;
+    background-color: dimgrey;
+    position:relative;
+    width: 100%;
+}
+
+.colchica {
+    text-align: center;
+    font-size: 10px;
+}
+.lema{
+    font-style:italic;
+}
+
+li {
+    padding-right: 40px;
+    list-style: none;
+}
+.topnav {
+    font-family:Arial;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+   background-color: #ddd;
+   color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+.wrap {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 270px;
+    height: 300px;
+    text-align: center;
+    font-family:Arial;
+}
+
+.register-title {
+    margin-top: 0;
+    width: 270px;
+    line-height: 43px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #EEEEEE;
+    text-align: center;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+    background: #d7604b;
+    border-radius: 3px;
+    background-color: #3290B1;
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.05), 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.register {
+    margin: 0 auto;
+    width: 230px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.register-input {
+    display: block;
+    width: 100%;
+    height: 38px;
+    margin-top: 2px;
+    font-weight: 500;
+    background: none;
+    border: 0;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+    .register-input:focus {
+        border-color: #1e9ce6;
+        outline: 0;
+    }
+
+.register-button {
+    display: block;
+    width: 100%;
+    height: 42px;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #494d59;
+    text-align: center;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+    background: #fcfcfc;
+    border: 1px solid;
+    border-color: #d8d8d8 #d1d1d1 #c3c3c3;
+    border-radius: 2px;
+    cursor: pointer;
+    background-image: -webkit-linear-gradient(top, #fefefe, #eeeeee);
+    background-image: -moz-linear-gradient(top, #fefefe, #eeeeee);
+    background-image: -o-linear-gradient(top, #fefefe, #eeeeee);
+    background-image: linear-gradient(to bottom, #fefefe, #eeeeee);
+    -webkit-box-shadow: inset 0 -1px rgba(0, 0, 0, 0.03), 0 1px rgba(0, 0, 0, 0.04);
+    box-shadow: inset 0 -1px rgba(0, 0, 0, 0.03), 0 1px rgba(0, 0, 0, 0.04);
+}
+
+    .register-button:active {
+        background: #eee;
+        border-color: #c3c3c3 #d1d1d1 #d8d8d8;
+        background-image: -webkit-linear-gradient(top, #eeeeee, #fcfcfc);
+        background-image: -moz-linear-gradient(top, #eeeeee, #fcfcfc);
+        background-image: -o-linear-gradient(top, #eeeeee, #fcfcfc);
+        background-image: linear-gradient(to bottom, #eeeeee, #fcfcfc);
+        -webkit-box-shadow: inset 0 1px rgba(0, 0, 0, 0.03);
+        box-shadow: inset 0 1px rgba(0, 0, 0, 0.03);
+    }
+
+    .register-button:focus {
+        outline: 0;
+    }
+
+.register-switch {
+    height: 32px;
+    margin-bottom: 15px;
+    padding: 4px;
+    background: #6db244;
+    border-radius: 2px;
+    background-color: #78A781;
+    -webkit-box-shadow: inset 0 1px rgba(0, 0, 0, 0.05), inset 1px 0 rgba(0, 0, 0, 0.02), inset -1px 0 rgba(0, 0, 0, 0.02);
+    box-shadow: inset 0 1px rgba(0, 0, 0, 0.05), inset 1px 0 rgba(0, 0, 0, 0.02), inset -1px 0 rgba(0, 0, 0, 0.02);
+}
+
+.register-switch-input {
+    display: none;
+}
+
+.register-switch-label {
+    float: left;
+    width: 50%;
+    line-height: 32px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.register-switch-input:checked + .register-switch-label {
+    font-weight: 500;
+    color: #434248;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+    background: white;
+    border-radius: 2px;
+    background-image: -webkit-linear-gradient(top, #fefefe, #eeeeee);
+    background-image: -moz-linear-gradient(top, #fefefe, #eeeeee);
+    background-image: -o-linear-gradient(top, #fefefe, #eeeeee);
+    background-image: linear-gradient(to bottom, #fefef);
+}
+

@@ -4,14 +4,12 @@ Desarrollar un ecommerce en react o codeigniter con las siguientes paginas
 Mostrar un listado de productos
 
 **Pagina detalle del producto**
-
 Nombre
 Precio
 Stock
 Codigo
 
 **Registro**
-
 Login
 Email
 Contraseña
